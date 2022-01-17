@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@400;500&display=swap');
+
+:root
+{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d; 
+    --text-black-700:#504e70; 
+}
+
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.main-content{
+    padding-left: 270px;
+}
+.padd-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container
+{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+.section .container
+{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+/* aside */
+.aside
+{
+    width: 270px;
+    background-color: var(--bg-black-100);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    height: 100%;
+    border-right: 1px solid var(--bg-black-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.aside .logo{
+    position: absolute;
+    top: 50px;
+
+}
+
+
+.aside .nav{
+    margin-top: 50px;
+    display: inline;
+
+}
+.aside .nav li {
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.aside .nav li a {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    border-bottom: 1px solid var(--bg-black-50);
+    color: var(--text-black-900);
+    padding: 5px 15px;
+}
+
+.aside .nav li a i {
+    margin-right: 15px;
+}
+
+
+/* Home */ 
+.home{
+    min-height: 100%;
+    display: flex;
+    color: var(--text-black-900);
+}
+
+.home .home-info{
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 20px 0;
+}
+h3.hello{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+h3.hello span{
+    font-family: 'Island Moments', cursive;;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(2, 100, 15);
+}
+
+h3.mon-metier {
+    font-size: 25px;
+    margin: 15px 0;
+}
+.home-info p{
+    font-size: 20px;
+    color: var(--text-black-700);
+    margin-bottom: 50px;
+}
+
+.typing{
+    color:rgb(2, 100, 15);
+}
+
+.home .home-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+    position: relative;
+    text-align: center;
+    border-top: 10px rgb(2, 100, 15);
+    border-left: 10px rgb(2, 100, 15);
+}
+
+.btn {
+    padding: 10px;
+    background: rgb(2, 100, 15); 
+    border-radius: 40px;
+    color: white;
+    padding: 12px 35px;
+}
+
+
+section{
+    background-color: var(--bg-black-900);
+    min-height: 100%;
+    display: block;
+    padding: 30px 30px;
+    opacity: 1;
+}
